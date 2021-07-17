@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+/* line 12, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 18, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+.row {
+  width: 963px;
+  margin: 0 auto;
+}
+
+/* line 22, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+body {
+  background: url("../images/bg-pattern-bottom-desktop.svg");
+  background-size: cover;
+}
+
+/* line 26, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+main {
+  display: grid;
+}
+
+/* line 29, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+.heading {
+  display: flex;
+  font-family: "Spartan", sans-serif;
+  margin-top: 100px;
+}
+
+/* line 33, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+.heading .title {
+  width: 420px;
+}
+
+/* line 35, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+.heading .title h1 {
+  font-weight: 700;
+  color: #502050;
+  font-size: 40px;
+  line-height: 1.1;
+}
+
+/* line 41, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+.heading .title h5 {
+  color: #937b92;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 60px;
+  line-height: 1.5;
+}
+
+/* line 51, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+.heading .rating .rate {
+  background-color: #f7f2f7;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  padding: 15px 28px;
+}
+
+/* line 58, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+.heading .rating .rate h3 {
+  color: #502050;
+  font-size: 12px;
+  font-weight: 700;
+  padding-left: 25px;
+  padding-right: 10px;
+}
+
+/* line 65, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+.heading .rating .rate img {
+  margin-right: 6px;
+  width: 15px;
+}
+
+/* line 72, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* line 76, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+.cards .card {
+  background-color: #502050;
+  border-radius: 7px;
+  color: #f7f2f7;
+  width: 295px;
+  padding: 35px 25px;
+  margin-right: 26px;
+}
+
+/* line 83, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+.cards .card .user {
+  font-family: "Spartan", sans-serif;
+  display: flex;
+}
+
+/* line 86, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+.cards .card .user img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+/* line 91, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+.cards .card .user .info {
+  font-size: 11px;
+  margin-left: 20px;
+  margin-top: 7px;
+}
+
+/* line 95, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+.cards .card .user .info small {
+  color: #ee68a4;
+  font-size: 11px;
+  line-height: 1.8;
+  letter-spacing: 0.1px;
+}
+
+/* line 103, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+.cards .card p {
+  font-family: "Spartan", sans-serif;
+  font-size: 11px;
+  color: #f7f2f7;
+  margin-top: 25px;
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+/* line 114, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+.rate:nth-child(2) {
+  margin-right: -40px;
+  margin-left: 40px;
+}
+
+/* line 118, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+.rate:nth-child(3) {
+  margin-right: -80px;
+  margin-left: 80px;
+}
+
+/* line 122, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+.card:nth-child(2) {
+  margin-top: 20px;
+}
+
+/* line 125, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+.card:nth-child(3) {
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 375px) {
+  /* line 130, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+  .row {
+    width: 100vw;
+  }
+  /* line 133, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+  .heading {
+    flex-direction: column;
+    width: 100vw;
+  }
+  /* line 136, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+  .heading .title {
+    width: 100%;
+  }
+  /* line 138, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+  .heading .title h1 {
+    text-align: center;
+    font-size: 33px;
+    padding: 0 30px;
+    width: 100vw;
+  }
+  /* line 146, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+  .heading .title h5 {
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 18px;
+    margin-bottom: 15px;
+  }
+  /* line 153, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+  .heading .rating {
+    margin-bottom: 30px;
+  }
+  /* line 155, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+  .heading .rating .rate {
+    padding: 15px;
+    width: 90%;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 163, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+  .heading .rating .rate .stars img {
+    width: 20px;
+  }
+  /* line 167, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+  .heading .rating .rate h3 {
+    text-align: center;
+    padding: 10px 0 0;
+    font-size: 15px;
+  }
+  /* line 176, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+  .cards {
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+  /* line 180, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+  .cards .card {
+    margin: 0 auto 10px auto;
+    padding-left: 26px;
+    padding-right: 20px;
+    width: 90%;
+  }
+  /* line 185, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+  .cards .card h3 {
+    display: block;
+  }
+  /* line 188, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+  .cards .card p {
+    font-size: 14px;
+  }
+  /* line 192, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+  .cards .card .user img {
+    height: 50px;
+    width: 50px;
+  }
+  /* line 196, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+  .cards .card .user .info {
+    font-size: 14px;
+  }
+  /* line 198, ../../../Documents/Programming/projects/frontend-mentor/mentor4/scss/style.scss */
+  .cards .card .user .info small {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
